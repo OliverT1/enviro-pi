@@ -86,10 +86,10 @@ def mainLoop(lengthMins, sleepSecs, camera, astroPi):
 green = (0,255,0)
 ap.clear(green)
 # Prevens EOF error
-#try:
- #   input()
-#except EOFError:
-#    print('eof error')
+try:
+    input()
+except EOFError:
+    print('eof error')
 ap.clear()
 
 # 5 second countdown
