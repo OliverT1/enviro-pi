@@ -3,7 +3,7 @@
 
 import time
 import picamera
-from astro_pi import AstroPi
+from sense_hat import AstroPi
 from PIL import Image
 import os
 
